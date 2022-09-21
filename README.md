@@ -1,4 +1,4 @@
-# CapstoneProjectTemplate /* Replace this line with the title of your project */
+# Estate Vault
 
 ## **Summary**
 
@@ -6,9 +6,10 @@ Put a very high-level summary of the project.
 
 ## **Team Members**
 
-- Joe Black
-- Joe Pesci
-- Joe Dalton
+- Cameron Allan
+- Landon Hammond
+- Nathaniel Slagter
+- Peyton Schaefer
 
 ## **Client Partner Information**
 
