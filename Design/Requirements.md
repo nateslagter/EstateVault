@@ -4,13 +4,26 @@
   - Related Business Requirement reference ID 
   - ID
   - Priority
--
+- App needs to be able to be properly displayed and used on mobile devices, as well as 
+
+- The document storage system will store documents submitted by clients in a database.
+  - Business requirement reference ID
+  - F1
+  - High
+
+- When accessed, the document storage system will retrieve all documents pertaining to a client.
+  - Business id
+  - F2
+  - High
+
+-When 
 
 ## Non-functional Requirements
 - List all non-functional requirements as bullet points.
   - Related Business Requirement reference ID
   - ID
   - Priority
+
 -
 
 ### Checklist
