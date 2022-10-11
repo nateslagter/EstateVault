@@ -1,48 +1,48 @@
 ![Domain Model for First Iteration](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/Domain%20Model%20First%20Iteration.jpeg)
 
-##Class's
+## Class's
 
-###User
-Any person using the system
+### User
+- Any person using the system
 
-###Non-Client Account
-A user who can only view documents can view documents that are shared with them.
+### Non-Client Account
+- A user who can only view documents can view documents that are shared with them.
 
-###Clients
-A client is a user who is storing their files in the document vault.
+### Clients
+- A client is a user who is storing their files in the document vault.
 
-###Client Documents
-Documents that a user has uploaded and given access to the non-client user to view.
+### Client Documents
+- Documents that a user has uploaded and given access to the non-client user to view.
 
-###Profile
-A basic page displaying information about the user who has an account.
+### Profile
+- A basic page displaying information about the user who has an account.
 
-###Account Information
-Information on the login details as well as other basic information for the account.
+### Account Information
+- Information on the login details as well as other basic information for the account.
 
-###Dashboard
-Displays the links to allow the user to access their document vault, assets & liabilities, account settings, checklist, and contacts.
+### Dashboard
+- Displays the links to allow the user to access their document vault, assets & liabilities, account settings, checklist, and contacts.
 
-###Account Settings
-Displays basic settings for the account(i.e. Accessibility, notifications, etc.).
+### Account Settings
+- Displays basic settings for the account(i.e. Accessibility, notifications, etc.).
 
-###Checklist
-A list of task to be exectuted, allows the user to know what to do next from the dashboard.
+### Checklist
+- A list of task to be exectuted, allows the user to know what to do next from the dashboard.
 
-###Contacts
-A list of people the user wishes to be able to share documents with, and/or store neccesary information to be able to contact them when neccesary.
+### Contacts
+- A list of people the user wishes to be able to share documents with, and/or store neccesary information to be able to contact them when neccesary.
 
-###Documents
-Houses the pages for Personal and Estate documents for the user.
+### Documents
+- Houses the pages for Personal and Estate documents for the user.
 
-###Personal Documents
-A page that allows the user to browse/upload/delete/preview/download/rename files that pertain to their personal life that are necesary for the user.
+### Personal Documents
+- A page that allows the user to browse/upload/delete/preview/download/rename files that pertain to their personal life that are necesary for the user.
 
-###Estate Documents
-A page that allows the user to browse/upload/delete/preview/download/rename files that pertain to their estate that are neccesary for the user.
+### Estate Documents
+- A page that allows the user to browse/upload/delete/preview/download/rename files that pertain to their estate that are neccesary for the user.
 
-###Access Control
-Access control allows the user to choose who will be able to view and not view a document in their vault
+### Access Control
+- Access control allows the user to choose who will be able to view and not view a document in their vault
 
-###Upload/Delete Documents
-The ability for the user to upload a file they need, or delete a file that is no longer needed.
+### Upload/Delete Documents
+- The ability for the user to upload a file they need, or delete a file that is no longer needed.
