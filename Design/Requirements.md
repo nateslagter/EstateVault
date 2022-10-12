@@ -17,26 +17,10 @@
   - F2
   - High
 
--When a user accesses the system, they will be able to create an account that saves their previously inputted information.
-  - BR2
+- The system can set permissions individually for each file, to limit who can view the document.
+  - BR5
   - F3
   - High
-
-- A user's family can access financial documents and manage the estate, when given specific permissions.
-  -  BR5
-  -  F4
-  -  High
-
-- A user's attorney, or other legal professional, should be able to view documents that the client has provided.
-  - BR5
-  - F5
-  - High
-
--A user 
-- A user is able to access the site via a mobile device.
-  - BR1
-  - F6
-  - Medium
 
 - A user shall receive notifications whenever a document has been flagged for review, or some other information is missing.
   - BR7
@@ -54,13 +38,20 @@
   - ID
   - Priority
 
-- A user is able to access the site via a mobile device.
+- The site can be accessed via a mobile device.
   - BR1
-  - F4
+  - NF1
   - Medium
 
+- A user can choose from a wide range of accesibility settings, such as increasing the font size, depending on their needs.
+  - BR2
+  - NF2
+  - Medium
 
--
+- The notification system should ensure that notifications are visible to the user, and prompt them to take further action.
+  - BR7
+  - NF3
+  - Low
 
 ### Checklist
 - Each requirement MUST conform to the characteristics of excellent requirements. 
