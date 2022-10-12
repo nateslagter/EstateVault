@@ -6,13 +6,12 @@
   - Priority
  
 
-
 - The document storage system will store documents submitted by clients in a database.
   - BR3
   - F1
   - High
 
-- When accessed, the document storage system will retrieve all documents pertaining to a client.
+- The document storage system will match a client to all of their pertaining documents in the database.
   - BR4
   - F2
   - High
@@ -22,7 +21,9 @@
   - F3
   - High
 
-- A user shall receive notifications whenever a document has been flagged for review, or some other information is missing.
+-  The dat
+
+- Notifications will be sent to the front end when a document has been flagged for review, or some other information is missing.
   - BR7
   - F7
   - Medium
@@ -32,18 +33,28 @@
   - F7
   - Low
 
+- The system will track which documents are not logged in the database yet.
+  - BR6
+  - F8
+  - Low
+
 ## Non-functional Requirements
 - List all non-functional requirements as bullet points.
   - Related Business Requirement reference ID
   - ID
   - Priority
 
+- The app will display a checklist of documents that the user needs to upload to the system.
+  - BR6
+  - NF
+  - High
+  
 - The site can be accessed via a mobile device.
   - BR1
   - NF1
   - Medium
 
-- A user can choose from a wide range of accesibility settings, such as increasing the font size, depending on their needs.
+- A user can set custom accessibility settings, such as increasing the font size, depending on their needs.
   - BR2
   - NF2
   - Medium
