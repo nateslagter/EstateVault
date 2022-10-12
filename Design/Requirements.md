@@ -4,25 +4,61 @@
   - Related Business Requirement reference ID 
   - ID
   - Priority
-- App needs to be able to be properly displayed and used on mobile devices, as well as 
+ 
+
 
 - The document storage system will store documents submitted by clients in a database.
-  - Business requirement reference ID
+  - BR3
   - F1
   - High
 
 - When accessed, the document storage system will retrieve all documents pertaining to a client.
-  - Business id
+  - BR4
   - F2
   - High
 
--When 
+-When a user accesses the system, they will be able to create an account that saves their previously inputted information.
+  - BR2
+  - F3
+  - High
+
+- A user's family can access financial documents and manage the estate, when given specific permissions.
+  -  BR5
+  -  F4
+  -  High
+
+- A user's attorney, or other legal professional, should be able to view documents that the client has provided.
+  - BR5
+  - F5
+  - High
+
+-A user 
+- A user is able to access the site via a mobile device.
+  - BR1
+  - F6
+  - Medium
+
+- A user shall receive notifications whenever a document has been flagged for review, or some other information is missing.
+  - BR7
+  - F7
+  - Medium
+
+- A user needs to be able to aggregate estate vault accounts into other, existing accounts.
+  - BR9
+  - F7
+  - Low
 
 ## Non-functional Requirements
 - List all non-functional requirements as bullet points.
   - Related Business Requirement reference ID
   - ID
   - Priority
+
+- A user is able to access the site via a mobile device.
+  - BR1
+  - F4
+  - Medium
+
 
 -
 
