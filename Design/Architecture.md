@@ -76,14 +76,17 @@ classDiagram
       +String lastName
       +AccessibilitySettings accessibilitySettings
       +getAccessibilitySettings() AccessibilitySettings
+      +setAccessibilitySettings() 
       }
       
       class Client{
       User who hires an attorney to review documents.
+      +List~Legal Professional~ legalProfessionalList
       }
       
       class Legal Professional {
       Professional who reviews legal documents.
+      +List~Client~ clientList
       }
       
       class Other{
