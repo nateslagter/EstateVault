@@ -1,11 +1,5 @@
 # Requirements
 ## Functional Requirements
-- List all functional requirements as bullet points.
-  - Related Business Requirement reference ID 
-  - ID
-  - Priority
- 
-
 - The document storage system will store documents submitted by clients in a database.
   - BR3
   - F1
@@ -39,11 +33,6 @@
   - Low
 
 ## Non-functional Requirements
-- List all non-functional requirements as bullet points.
-  - Related Business Requirement reference ID
-  - ID
-  - Priority
-
 - The app will display a checklist of documents that the user needs to upload to the system.
   - BR6
   - NF
