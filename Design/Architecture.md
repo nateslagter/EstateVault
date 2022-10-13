@@ -18,7 +18,7 @@ classDiagram
       The DocumentController processes requests sent to the Document endpoint of the API.
       It is used to retrieve documents pertaining to the query sent.
       +getAllDocuments()
-      +getDocument() int
+      +getDocument()
       }
       
       class NotificationController{
@@ -31,40 +31,59 @@ classDiagram
       class UserController{
       The UserController processes requests sent to the User endpoint of the API.
       +getUser() User
+      +createUser(user info)
+      +deleteUser(user info)
+      +editUser(user info)
       }
       
       class DocumentService{
       The DocumentService class handles logic between Controller and Repo layers. 
       It handles the object-relational mapping.
+      +getAllDocuments()
+      +getDocument()
           
       }
       class NotificationService{
       The NotificationService class handles logic between Controller and Repo layers. 
       It handles the object-relational mapping.
+      +sendNotification() 
           
       }
       class UserService{
       The UserService class handles logic between Controller and Repo layers. 
       It handles the object-relational mapping.
+      +getUser() User
+      +createUser(user info)
+      +deleteUser(user info)
+      +editUser(user info)
           
       }
       
       class NotificationRepo{
       Queries the DB to retrieve data for notifications.
+      +queryWhenNotificationLastSent()
+      
       }
       
       class DocumentRepo{
       Queries the DB for documents relating to the query.
+      +queryDocuments()
+      +querySpecificDocument(String documentId)
+      +insertNewDocument(Document document)
+      +updateDocument(String documentId)
+      +deleteDocument(String documentId)
       }
       
       class UserRepo{
       Queries the DB for user objects.
+      +queryUser(User user)
       }
       
       class Document{
       The document object holds a file relating to a client. 
-      +document: File
-      +documentName: String
+      +File document
+      +String documentName
+      +String documentId
       +getDocumentName() String
       +changeDocumentName(String newName)
 
@@ -91,6 +110,7 @@ classDiagram
       
       class Other{
       Family/friends of client, who are allowed to view certain documents.
+      +List~Client~ clientList
       }
       
       class Notifier Live Service{
