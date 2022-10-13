@@ -6,7 +6,7 @@
 - Any person using the system
 
 ### Non-Client Account
-- A user who can only view documents can view documents that are shared with them.
+- A user who can only view documents that are shared with them.
 
 ### Clients
 - A client is a user who is storing their files in the document vault.
@@ -15,16 +15,16 @@
 - Documents that a user has uploaded and given access to the non-client user to view.
 
 ### Profile
-- A basic page displaying information about the user who has an account.
+- A user creates a profile for which to be used when logging in to the site
 
 ### Account Information
-- Information on the login details as well as other basic information for the account.
+- Basic information listed for the user account.
 
 ### Dashboard
-- Displays the links to allow the user to access their document vault, assets & liabilities, account settings, checklist, and contacts.
+- Displays the links to allow the user to access their document vault, assets & liabilities, account settings, checklist, contacts etc.
 
 ### Account Settings
-- Displays basic settings for the account(i.e. Accessibility, notifications, etc.).
+- Displays basic settings for the account(i.e. Accessibility settings, notification settings, etc.).
 
 ### Checklist
 - A list of task to be exectuted, allows the user to know what to do next from the dashboard.
@@ -42,7 +42,7 @@
 - A page that allows the user to browse/upload/delete/preview/download/rename files that pertain to their estate that are neccesary for the user.
 
 ### Access Control
-- Access control allows the user to choose who will be able to view and not view a document in their vault
+- Access control allows the user to choose a person from their contacts to grant access to view a document in their vault
 
 ### Upload/Delete Documents
-- The ability for the user to upload a file they need, or delete a file that is no longer needed.
+- The user can upload a file they need, or delete a file that is no longer needed.
