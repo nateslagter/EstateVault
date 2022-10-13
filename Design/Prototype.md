@@ -1,7 +1,7 @@
 # Prototype
 
 ## Figma
-- Link to your prototype in Figma 
-  - If you have a web app project, design screens for a web app and connect them
+- [Desktop Design](https://www.figma.com/proto/d5FU9K4wQ0zGtKjSWjEWuN/Estate-Vault-Site?node-id=24%3A5&scaling=scale-down&page-id=22%3A96&starting-point-node-id=24%3A557&hide-ui=1)
+- [Mobile Design](https://www.figma.com/proto/d5FU9K4wQ0zGtKjSWjEWuN/Estate-Vault-Site?node-id=46%3A97&scaling=min-zoom&page-id=45%3A42&starting-point-node-id=46%3A97&hide-ui=1)
 ## Video
-- video of it uploaded to youtube and embedded in the Prototype.md
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/2GRyAkdJr1s/0.jpg)](https://youtu.be/2GRyAkdJr1s "Estate Vault Prototype Overview")
