@@ -1,3 +1,4 @@
+# Domain Model
 ![Domain Model for First Iteration](https://github.com/nateslagter/EstateVault/blob/main/Design/DomainModelFirstIteration.jpeg)
 
 ## Class's
