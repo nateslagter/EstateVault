@@ -19,7 +19,7 @@ Accutech
 ### *People:*
 - Dan Wright
 - Michael Keen
-- Valerie Lastname
+- Valerie Hurwitz
 
 ## **Links**
 
