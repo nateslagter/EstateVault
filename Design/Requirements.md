@@ -15,8 +15,6 @@
   - F3
   - High
 
--  The dat
-
 - Notifications will be sent to the front end when a document has been flagged for review, or some other information is missing.
   - BR7
   - F7
