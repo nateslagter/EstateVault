@@ -1,29 +1,61 @@
 # Requirements
 ## Functional Requirements
-- The document storage system will store documents submitted by clients in a database.
-  - BR3
+- The document storage system will allow for documents to be uploaded into a database.
+  - BR1
   - F1
   - High
 
-- The document storage system will match a client to all of their pertaining documents in the database.
-  - BR4
+- The document storage system will be able to retrieve files pertaining to a client.
+  - BR1
   - F2
   - High
 
-- The system can set permissions individually for each file, to limit who can view the document.
-  - BR5
+- The document storage system will allow for the deletion of files.
+  - BR1
   - F3
   - High
 
-- Notifications will be sent to the front end when a document has been flagged for review, or some other information is missing.
-  - BR7
+- The document storage system will allow for a document's name to be changed.
+  - BR1
+  - F4
+  - High
+
+- The document storage system will allow for users to filter their documents based on name, creation date, and other filters.
+  - BR1
+  - F5
+  - Medium
+
+- The document storage system will utilize permissions to limit access to the documents.
+  - BR1
+  - F6
+  - Medium
+
+- The document storage system will allow for usernames and passwords for online accounts to be stored.
+  - BR1
   - F7
   - Medium
 
-- A user needs to be able to aggregate estate vault accounts into other, existing accounts.
-  - BR9
-  - F7
-  - Low
+- A user will be able to set custom permissions on a document on a per person basis.
+  - BR1
+  - F8
+  - Medium
+
+- A user of the system will be able to add a family member as a contact.
+  - BR2
+  - F9
+  - High
+
+- A user will be able to add multiple different persons as contacts in the system.
+  - BR2
+  - F10
+  - High
+
+- A user will be able to change permissiosn based on the user, to allow for certain access to certain documents.
+  - BR2
+  - F9
+  - Medium
+
+- A user will be able to store pass
 
 - The system will track which documents are not logged in the database yet.
   - BR6
