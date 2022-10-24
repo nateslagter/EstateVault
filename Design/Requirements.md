@@ -50,16 +50,44 @@
   - F10
   - High
 
-- A user will be able to change permissiosn based on the user, to allow for certain access to certain documents.
+- A user will be able to change permissions based on the user, to allow for certain access to certain documents.
   - BR2
-  - F9
+  - F11
   - Medium
 
-- A user will be able to store pass
+- A user will be able to store account information, including usernames and passwords, in the estate vault.
+  - BR2
+  - F12
+  - Medium
+
+- A user will be able to limit which contacts can view their account login information.
+  - BR3
+  - F13
+  - Low
 
 - The system will track which documents are not logged in the database yet.
   - BR6
-  - F8
+  - F14
+  - Low
+
+- The system will allow a user to link their bank account to their estate vault.
+  - BR3
+  - F15
+  - Medium
+
+- The system will allow a user to link accounts relating to their properties to their estate vault.
+  - BR3
+  - F16
+  - Low
+
+- The system will allow a user to link accounts relating to their insurance to their estate vault.
+  - BR3
+  - F17
+  - Low
+
+- The system will allow for other types of accounts to be linked to the estate vault.
+  - BR3
+  - F18
   - Low
 
 ## Non-functional Requirements
