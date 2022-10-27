@@ -14,6 +14,7 @@ Tech stack is:
 
 - node v16.9 to run any `npm` scripts
 - .NET 6.0 SDK
+- Postman (Optional)
  
 ## Required IDEs, Frameworks
 
@@ -51,7 +52,6 @@ Tech stack is:
 - /models contains data models for the API
 - /tests contains all tests, unit and integration
 - /properties contains api project settings, such as swagger integration
-- 
 
 ## Building the API
 - This API requires docker desktop; however, if using VS 2022, Docker Desktop will be installed automatically. Setup for containers TBD.
@@ -59,3 +59,4 @@ Tech stack is:
 ## API Tests
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program.
 - 'dotnet test' will run all unit tests in the solution. 
+- Additionally, you can make calls to the endpoints by using Postman. This is not required, but can help to gain a better understanding of the functionality of the API.
