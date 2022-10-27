@@ -13,10 +13,11 @@ Tech stack is:
 ## Technologies Needed
 
 - node v16.9 to run any `npm` scripts
+- .NET 6.0 SDK
  
 ## Required IDEs, Frameworks
 
-- No required IDE
+- Visual Studio 2022 w/ ASP.NET development package is required to run this program. VSCode can be used to run tests, but plugins are needed.
 - Need a terminal to run the program
 - Using Vue framework
 
@@ -41,3 +42,20 @@ Tech stack is:
 - run 'npm install' in the terminal
 - run 'npm run dev' in the terminal
 - Navigate to the url given in the console (the default is localhost:5173)
+
+## API Folder Structure
+- /api contains all source code for the api
+- /controllers contains the api's controllers
+- /service contains the service layer classes
+- /repo contains the repository classes
+- /models contains data models for the API
+- /tests contains all tests, unit and integration
+- /properties contains api project settings, such as swagger integration
+- 
+
+## Building the API
+- This API requires docker desktop; however, if using VS 2022, Docker Desktop will be installed automatically. Setup for containers TBD.
+
+## API Tests
+- To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program.
+- 'dotnet test' will run all unit tests in the solution. 
