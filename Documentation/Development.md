@@ -57,6 +57,6 @@ Tech stack is:
 - This API requires docker desktop; however, if using VS 2022, Docker Desktop will be installed automatically. Setup for containers TBD.
 
 ## API Tests
-- To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program.
+- To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
 - Additionally, you can make calls to the endpoints by using Postman. This is not required, but can help to gain a better understanding of the functionality of the API.
