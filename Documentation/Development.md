@@ -58,6 +58,15 @@ Tech stack is:
 ## Building the API
 - This API requires docker desktop; however, if using VS 2022, Docker Desktop will be installed automatically. Setup for containers TBD.
 
+## Running the API
+- Run `git clone https://bitbucket.org/accutechcapstone/bsu.estatevault/src/master/` to retrieve the repo and store it wherever you please.
+- Open the estatevaultapi.sln vile in Visual Studio.
+  - The necessary packages will automatically install.
+- To run the tests, you can either run `dotnet test` or run tests from the test menu.
+- Similarily, to build the project, you may use `dotnet build` or run from the Build option in the toolbar.
+- To run the project, you may use `dotnet run` or Click `EstateVaultApi` from the toolbar to run the project.
+- SwaggerHub docs will be brougnt up automatically. You can make requests to the API and it will return the proper result.
+
 ## API Tests
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
