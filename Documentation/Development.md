@@ -68,6 +68,8 @@ Tech stack is:
 - In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
 - Utilizing pgadmin 4, create a new database and name it "estatevaultdb". Then, right click on it > restore. Then, for filename, navigate to dbb.sql in repo and select to automatically create and populate schema.
 
+`bsu.estatevault\api\EstateVaultDB\db.sql`
+
 ## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented support)
 - First you must install the extension "Npgsql PostgreSQL Integration" and restart VS. (Wait for a pop up to finish before reopening)
 - Under the View tab at the top of VS, select server explorer and open the server explorer tab.
