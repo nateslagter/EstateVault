@@ -41,6 +41,7 @@ Tech stack is:
 - run `npm install` to install dependencies, and run `npm run test:unit`
 
 ## How to Run the Vue 
+- Navigate to the `/frontend` folder
 - run 'npm install' in the terminal
 - run 'npm run dev' in the terminal
 - Navigate to the url given in the console (the default is localhost:5173)
