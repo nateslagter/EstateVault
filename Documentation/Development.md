@@ -14,6 +14,7 @@ Tech stack is:
 
 - node v16.9 to run any `npm` scripts
 - .NET 6.0 SDK
+- PostgreSQL
 - Postman (Optional)
  
 ## Required IDEs, Frameworks
@@ -60,3 +61,18 @@ Tech stack is:
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
 - Additionally, you can make calls to the endpoints by using Postman. This is not required, but can help to gain a better understanding of the functionality of the API.
+
+## Create Local PostgreSQL database
+- Local database houses stored user information.
+- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port. Use 'password' for password.
+- In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
+- Utilizing pgadmin 4, create a new database and name it "estatevaultdb". Then, right click on it > restore. Then, for filename, navigate to dbb.sql in repo and select to automatically create and populate schema.
+
+## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented support)
+- First you must install the extension "Npgsql PostgreSQL Integration" and restart VS. (Wait for a pop up to finish before reopening)
+- Under the View tab at the top of VS, select server explorer and open the server explorer tab.
+- Right click on Data Connections > Add a connection.
+- Change Data Source to PostgreSQL Database > OK (without the aformentioned extension, this selection will not be in the list).
+- Set Host to "localhost", Port to what you specified during PostgreSQL installation (default 5432), Database to "estatevaultdb", and enter the username and password you set up when installing (default username "postgres", recommended password "password").
+- Click Test Connection to make sure the connection succeeds, then click Ok.
+- You should now have VS linked to your local PostgreSQL database. (if you chose a different database name, username, or password, you will need to edit line 11 of UserRepo.cs to make sure the respective fields in the dbconnection variable match your personal information.
