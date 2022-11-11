@@ -74,17 +74,18 @@ Tech stack is:
 
 ## Create Local PostgreSQL database
 - Local database houses stored user information.
-- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port. Use 'password' for password.
+- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.
 - In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
 - Utilizing pgadmin 4, create a new database and name it "estatevaultdb". Then, right click on it > restore. Then, for filename, navigate to dbb.sql in repo and select to automatically create and populate schema.
 
 `bsu.estatevault\api\EstateVaultDB\db.sql`
 
-## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented support)
+## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented  Mac support)
 - First you must install the extension "Npgsql PostgreSQL Integration" and restart VS. (Wait for a pop up to finish before reopening)
 - Under the View tab at the top of VS, select server explorer and open the server explorer tab.
 - Right click on Data Connections > Add a connection.
 - Change Data Source to PostgreSQL Database > OK (without the aformentioned extension, this selection will not be in the list).
-- Set Host to "localhost", Port to what you specified during PostgreSQL installation (default 5432), Database to "estatevaultdb", and enter the username and password you set up when installing (default username "postgres", recommended password "password").
+- Set Host to "localhost", Port to what you specified during PostgreSQL installation (default 5432), Database to "estatevaultdb", and enter the username and password you set up when installing.
 - Click Test Connection to make sure the connection succeeds, then click Ok.
-- You should now have VS linked to your local PostgreSQL database. (if you chose a different database name, username, or password, you will need to edit line 11 of UserRepo.cs to make sure the respective fields in the dbconnection variable match your personal information.
+- You should now have VS linked to your local PostgreSQL database.  
+`You will need to edit line 11 of UserRepo.cs to make sure the respective fields in the dbconnection variable match your personal information used during setup. Otherwise, VS will not be able to access the local database.`
