@@ -77,8 +77,9 @@ Tech stack is:
 - Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4 (optional). (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.
 - In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
 - Make sure C:\Program Files\PostgreSQL\15\bin is linked to PATH so commands are functional in cmd
-- Utilizing cmd, create a new database and name it "estatevaultdb" with the command `createdb -U [username] estatevaultdb`, then input password.
-- navigate cmd to `bsu.estatevault\api\EstateVaultDB` and enter the command `pg_restore -U [username] -d estatevaultdb dbb.sql`, then input password.
+- Utilizing cmd, navigate to `bsu.estatevault\api\EstateVaultDB`.
+- Create a new database and name it "estatevaultdb" with the command `createdb -U [username] estatevaultdb`, then input password.
+- Build the table's schema by entering the command `pg_restore -U [username] -d estatevaultdb dbb.sql`, then input password.
 - Your local database should now be created.
 
 
