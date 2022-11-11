@@ -1,12 +1,12 @@
 # Deployment
 ## Database
 - Postgres is used to store all of our user information.
-- Through PostgreSQL installer[https://www.postgresql.org/download/], download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.)
+- Through [PostgreSQL installer](https://www.postgresql.org/download/), download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.)
 - In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
 - Using the pgadmin 4 gui, drop down the server tab, then drop down postgresql 15, and right click the "Databases" tab and create a new database and name it "estatevaultdb" using the "database" field. Then, right click on it > restore. Then, for "filename", navigate to `bsu.estatevault/API/EstateVaultDB/dbb.sql` and select to automatically create and populate schema.
 ## Server
 AS OF THIS ITERATION, THE DATABASE CANNOT BE LINKED TO VISUAL STUDIO ON MAC
-- Running the backend server is done through the Visual Studio community[https://visualstudio.microsoft.com/].  
+- Running the backend server is done through the [Visual Studio Community](https://visualstudio.microsoft.com/).  
 - When VS is downloaded, click the button to open solution. 
 - The file you are looking for is `bsu.estatevault/API/EstateVaultAPI/EstateVaultAPI.csproj`.  
 - Once this opens, navigate to `bsu.estatevault/API/EstateVaultAPI/Repos/UserRepo.cs` and on line 11, change the `Password=~~~~~` to `Password=[your postgres password]`. 
@@ -21,7 +21,7 @@ AS OF THIS ITERATION, THE DATABASE CANNOT BE LINKED TO VISUAL STUDIO ON MAC
 - Click build at the top and build solution.
 - Now hit the play button to run the backend.
 ## Frontend
-- In VS Code, open the project and type `cd frontend` into the terminal.
+- In [Visual Studio Code](https://code.visualstudio.com/download), open the project and type `cd frontend` into the terminal.
 - Type `npm install` into the terminal.
 - Now type `npm run dev` into the terminal.
 - The frontend is now running.
