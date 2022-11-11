@@ -1,4 +1,4 @@
-# Deployment
+# Development
 
 ## Tech aspects
 
@@ -72,15 +72,17 @@ Tech stack is:
 - 'dotnet test' will run all unit tests in the solution. 
 - Additionally, you can make calls to the endpoints by using Postman. This is not required, but can help to gain a better understanding of the functionality of the API.
 
-## Create Local PostgreSQL database
+## Create Local PostgreSQL database with cmd.
 - Local database houses stored user information.
-- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4. (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.
+- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4 (optional). (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.
 - In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
-- Utilizing pgadmin 4, create a new database and name it "estatevaultdb". Then, right click on it > restore. Then, for filename, navigate to dbb.sql in repo and select to automatically create and populate schema.
+- Make sure C:\Program Files\PostgreSQL\15\bin is linked to PATH so commands are functional in cmd
+- Utilizing cmd, create a new database and name it "estatevaultdb" with the command `createdb -U [username] estatevaultdb`, then input password.
+- navigate cmd to `bsu.estatevault\api\EstateVaultDB` and enter the command `pg_restore -U [username] -d estatevaultdb dbb.sql`, then input password.
+- Your local database should now be created.
 
-`bsu.estatevault\api\EstateVaultDB\db.sql`
 
-## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented  Mac support)
+## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented  Mac support).
 - First you must install the extension "Npgsql PostgreSQL Integration" and restart VS. (Wait for a pop up to finish before reopening)
 - Under the View tab at the top of VS, select server explorer and open the server explorer tab.
 - Right click on Data Connections > Add a connection.
