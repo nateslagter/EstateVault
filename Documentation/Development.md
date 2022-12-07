@@ -56,7 +56,7 @@ Tech stack is:
 - /properties contains api project settings, such as swagger integration
 
 ## Building the API
-- This API requires docker desktop; however, if using VS 2022, Docker Desktop will be installed automatically. Setup for containers TBD.
+- Navigate to `Build` in VS, or see Docker setup below.
 
 ## Running the API
 - Run `git clone https://bitbucket.org/accutechcapstone/bsu.estatevault/src/master/` to retrieve the repo and store it wherever you please.
@@ -70,28 +70,6 @@ Tech stack is:
 ## API Tests
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
-- Additionally, you can make calls to the endpoints by using Postman. This is not required, but can help to gain a better understanding of the functionality of the API.
-
-## Create Local PostgreSQL database with cmd.
-- Local database houses stored user information.
-- Through PostgreSQL installer, download PostGreSQL server, stack builder, and pgadmin 4 (optional). (Process is simpler if during installation you use defaults like postgres for username and 5432 for port.
-- In stack builder, select PostgreSQL server, open the Database Drivers tab, and install npgsql.
-- Make sure C:\Program Files\PostgreSQL\15\bin is linked to PATH so commands are functional in cmd
-- Utilizing cmd, navigate to `bsu.estatevault\api\EstateVaultDB`.
-- Create a new database and name it "estatevaultdb" with the command `createdb -U [username] estatevaultdb`, then input password.
-- Build the table's schema by entering the command `pg_restore -U [username] -d estatevaultdb dbb.sql`, then input password.
-- Your local database should now be created.
-
-
-## Access PostgreSQL database in Visual Studio environment (This does not work for MacOS as VS developers have not implemented  Mac support).
-- First you must install the extension "Npgsql PostgreSQL Integration" and restart VS. (Wait for a pop up to finish before reopening)
-- Under the View tab at the top of VS, select server explorer and open the server explorer tab.
-- Right click on Data Connections > Add a connection.
-- Change Data Source to PostgreSQL Database > OK (without the aformentioned extension, this selection will not be in the list).
-- Set Host to "localhost", Port to what you specified during PostgreSQL installation (default 5432), Database to "estatevaultdb", and enter the username and password you set up when installing.
-- Click Test Connection to make sure the connection succeeds, then click Ok.
-- You should now have VS linked to your local PostgreSQL database.  
-`You will need to edit line 11 of UserRepo.cs to make sure the respective fields in the dbconnection variable match your personal information used during setup. Otherwise, VS will not be able to access the local database.`
 
 ## Replicating via Docker
 - After opening the API in VS, run the following three commands in the developer powershell:
