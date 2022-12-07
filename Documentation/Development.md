@@ -94,6 +94,8 @@ Tech stack is:
 `You will need to edit line 11 of UserRepo.cs to make sure the respective fields in the dbconnection variable match your personal information used during setup. Otherwise, VS will not be able to access the local database.`
 
 ## Replicating via Docker
-#### Docker support is currently experimental and not fully functional. To test, navigate to the `feature/jwt-authentication` branch.
-- ![image](https://user-images.githubusercontent.com/70381945/202351881-b0494c3b-825b-499a-ace2-4a4b0367426b.png)
-- In the top of the VS IDE, click Docker Compose. This will automatically create the volumes that you need. The ports in the frontend are automatically configured to use the exposed docker ports.
+- After opening the API in VS, run the following three commands in the developer powershell:
+    - `docker compose down`
+    - `docker compose build`
+    - `docker compose up`
+- After these are done running, you can navigate to `localhost:5000/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
