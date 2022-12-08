@@ -79,4 +79,4 @@ Tech stack is:
     - `docker compose down`
     - `docker compose build`
     - `docker compose up`
-- After these are done running, you can navigate to `localhost:5000/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
+- After these are done running, you can navigate to `localhost:5001/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
