@@ -1,0 +1,40 @@
+# Client Meeting on 12/07/2022
+
+## Meeting Start Time
+
+2022/12/07/13:30
+
+## Meeting End Time
+
+2022/12/07/14:00
+
+## Location/Medium
+
+The meeting took place at the Accutech Clubhouse in downtown Muncie.
+
+## Present
+
+Peyton Schaefer, Cameron Allan, Landon Hammond, Nate Slagter, Dan Wright, Michael Keen.
+
+## Minute Recorder
+
+Landon
+
+## Topics Discussed
+
+- Frontend design overhaul and better routing
+ - Start from sign in page rather than dashboard
+- Document storage system
+ - Iteration 1 feature that was implemented after our meeting but before the deadline.
+- Contacts system implementation
+- User account editing and deletion feature
+- AWS database integration for contacts and user data
+- Plan during the downtime between semesters
+
+
+
+
+## Things Clarified
+
+- Cleaning up some areas that need a little work and brainstorming implementation of the contact permission system over winter break
+- Dan had little criticism of the state of the project for iteration 2, seemed very interested in our next steps and how the contact permission system will be implemented.
