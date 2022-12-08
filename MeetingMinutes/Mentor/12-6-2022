@@ -1,0 +1,38 @@
+# Week of 12/4/2022 - 12/10/2022
+
+## Meeting Start Time
+
+2022/12/06/13:00
+
+## Meeting End Time
+
+2022/12/06/13:30
+
+## Location/Medium
+
+Zoom
+
+## Present
+
+Peyton Schaefer, Landon Hammond, Nate Slagter, Cameron Allan, Michael Keen
+
+## Minute Recorder
+
+Landon
+
+## Topics Discussed
+
+
+- Account settings page
+- Contacts system
+- Password hashing
+- Backend integration testing
+- Frontend testing
+
+## Things Clarified
+
+ - Issue with relation field in contacts page not updating with the rest of the fields that needs to be fixed.
+ - Hashing stored passwords in the database
+ - What to focus on for the meeting with Dan 12/7
+ 
+ 
