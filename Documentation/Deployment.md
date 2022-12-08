@@ -46,3 +46,4 @@
 ## Critical or Vulnerable Pieces
 - All three pieces need to be open and running for the project to work properly!  If the frontend, backend, and database are not working, users will not be able to log in and documents cannot be uploaded to AWS.
 - If all of these things are running, the system should work accordingly.
+- The backend relies on the RDS and S3 services from AWS, so internet is required for the product to function properly, even when running locally.
