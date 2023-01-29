@@ -80,3 +80,7 @@ Tech stack is:
     - `docker compose build`
     - `docker compose up`
 - After these are done running, you can navigate to `localhost:5001/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
+
+## Linting
+- Lint the program by running `npm run lint` in the bsu.estatevault directory.
+- The linting guidelines can be found in the `.eslintrc.json` file in the frontend folder
