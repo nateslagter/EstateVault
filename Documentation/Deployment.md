@@ -22,11 +22,13 @@
 
 ## Backend
 - Docker Desktop should prompt to install automatically when building for the first time. If it does not, you may download it from https://www.docker.com/products/docker-desktop/.
+- In `AppSettings.json`, change the active `ConnectionString` to `"ConnectionString": "Host=estatevaultdb.csf5v0dcdkkv.us-east-2.rds.amazonaws.com;Port=5432;Username=postgres;Password=password;"`. This will connect you to the production RDS database.
 - To start the backend, you can either load the project in Visual Studio by opening the SLN file located at `\bsu.estatevault\api\EstateVaultAPI\EstateVaultAPI.sln`, or you can navigate to the `\bsu.estatevault\api\EstateVaultAPI` in your terminal of choice.
 - Run the following commands:
     - `docker compose down`
     - `docker compose build`
     - `docker compose up`.
+- The migrations will come baked into the project, so there's no need to add or delete anything when running the production version of the software.
 
 ## Start and Stop System
 - Closing the terminal in VS Code will terminate the frontend.
