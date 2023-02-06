@@ -69,12 +69,20 @@ Tech stack is:
 - Similarily, to build the project, you may use `dotnet build` or run from the Build option in the toolbar.
 - To run the project, you may use `dotnet run` or Click `EstateVaultApi` from the toolbar to run the project.
 - SwaggerHub docs will be brougnt up automatically. You can make requests to the API and it will return the proper result.
-
+## Migrations
+- The migrations for this project are finicky. If you are running tests, you must delete the `Migrations` folder within Visual Studio. If replicating via Docker, you can either keep the migration folder or run `Add-Migration EstateVaultMigrations`. The connection string MUST be set to the local postgres database if this is the case.
 ## API Tests
+- To run the tests for this project, you will need to create a local instance of our Postgres Database. The file, `estateVaultDump.sql`, can be found in the `api/EstateVaultApi` folder. 
+    - On Windows, open command prompt and navigate to wherever you cloned the repository, and navigate to the above mentioned folder.
+    - `psql -U postgres` . Input your local password.
+    - Run `create database estatevaultdb;`. 
+    - Run the command `psql -U postgres estatevaultdb < estateVaultDump.sql`.
+- You can now run the tests. In `AppSettings.json`, the ConnectionString key should have a value of `"ConnectionString": "Host=localhost; Port=5432; Database=estatevaultdb; Username=postgres; Password=Indy!441"`.
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
 
 ## Replicating via Docker
+- The connection string must be set to `"ConnectionString": "Host=estatevault-db; Database=estatevaultdb; Username=postgres; Password=Indy!441"`.
 - After opening the API in VS, run the following three commands in the developer powershell:
     - `docker compose down`
     - `docker compose build`
