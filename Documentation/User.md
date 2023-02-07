@@ -35,7 +35,7 @@
 ### Connections Page
 - Here is the default Connections page, as you can see, there are no connections, you can add a connection using the invites tab located on the right side of your screen. You can enter a professional's email to send them an invite to become a connection.
 ![Connections-page](https://user-images.githubusercontent.com/89540335/217147812-5d68ecc6-7873-4c6a-b77d-288900e76b67.png)
-- A connection must be a user registered in the EstateVault system, so be sure to send the invite the email your connection used to register with EstateVault.
+- A connection must be a user registered in the EstateVault system, so be sure to send the invite to the email your connection used to register with EstateVault.
 ![invite-client](https://user-images.githubusercontent.com/89540335/217148279-7f6f65a0-f285-4a20-acea-86a9e2270dc0.png)
 - Press the `Send Invite` button, you will now see the pending invite listed in your invites, once your professional accepts, they will appear on your connetions page, where you can then share documents stored in your document vault with them.
 ![invite-sent-client](https://user-images.githubusercontent.com/89540335/217148420-d6f7ab5b-3312-48be-b33f-095c7b51f735.png)
