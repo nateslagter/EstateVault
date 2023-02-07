@@ -4,26 +4,45 @@
 ![Landing page](https://user-images.githubusercontent.com/70381945/206295189-05931d0e-68da-4a60-b11c-88353e50a58d.png)
 - When first running the app, you will be navigated to this screen. Select `sign up` to register a new account.
 ![sign up](https://user-images.githubusercontent.com/70381945/206295356-03bce382-8620-42d3-aa8c-ffbae3315496.png)
-
-- You are now navigated to a registration page. Fill in your personal information, and, when ready, click `Sign Up`.
-![image](https://user-images.githubusercontent.com/70381945/206295507-5e97d6f6-c875-4856-8956-c30f19217e2e.png)
+### Client Sign up
+- You are now navigated to the client registration page. With the option to choose to sign up for a professional account at the bottom. For this example, stay on the client sign up page. Fill in your personal information, and, when ready, click `Sign Up`.
+![Screenshot 2023-02-06 222757](https://user-images.githubusercontent.com/89540335/217141520-215bfd65-ec8a-46c6-a4c5-7aae92d35b7d.png)
 - When you confirm your password, the `X` will become a green checkmark to confirm that the two passwords are the same.
-![image](https://user-images.githubusercontent.com/70381945/206295635-bca642ef-a031-4df4-b8cf-0ba51b0c287a.png)
+![Screenshot 2023-02-06 222757](https://user-images.githubusercontent.com/89540335/217141520-215bfd65-ec8a-46c6-a4c5-7aae92d35b7d.png)
 - If the passwords are not the same, you will be blocked from continuining, and a red `X` will appear. 
 ![image](https://user-images.githubusercontent.com/70381945/206295607-c5dac853-f9c3-4dae-a4dd-328e8ff19f5a.png)
 - After this, you will be prompted to sign in with your new information. Fill in the field with your email address and password, and click `Sign In` to continue.
-![image](https://user-images.githubusercontent.com/70381945/206295928-2b51cd60-bc43-48d5-afc1-94e8c63b9ece.png)
+![Screenshot 2023-02-06 222853](https://user-images.githubusercontent.com/89540335/217141798-cdfc129b-c1ad-4754-b2ad-15081f54f738.png)
+### Client Dashboard
 - This is your dashboard! It looks empty right now, so let's go ahead and upload some files.
 ![image](https://user-images.githubusercontent.com/70381945/206296171-4ed85bbe-0453-4215-a468-6d80e8095359.png)
+### Document Page
 - This is the document vault page. Here, we can upload documents.
-![image](https://user-images.githubusercontent.com/70381945/206296658-2541eefa-7339-4398-87a5-6aa11d80d156.png)
-- Select a file from your computer and uplaod it. We'll use a random pdf, and give it the tag `power of attorney`. You can also select a custom tag if you want, and there are some preexisting tags for you to help organize your files a bit more.
-![image](https://user-images.githubusercontent.com/70381945/206296792-c339473e-08e9-4bb1-9eb4-1a47b0cae662.png)
-- Select the little cloud icon to upload that file. You will be prompted if the file was successfully upload. Now click `Reload Files`. 
-![image](https://user-images.githubusercontent.com/70381945/206297239-fb072f3f-5d32-4a67-a063-e0653ec9e0b4.png)
+![Screenshot 2023-02-06 223128](https://user-images.githubusercontent.com/89540335/217142000-315a6147-e282-4d67-b38a-687b4aca6083.png)
+- You can choose the add button under any labeled field to add a file to that tag. Or you can press the add button at the top of the page to add a file to any tag, or create a new tag for your file. Let's go ahead and hit the top add button.
+![Screenshot 2023-02-06 223128](https://user-images.githubusercontent.com/89540335/217142000-315a6147-e282-4d67-b38a-687b4aca6083.png)
+
+- Here a popup shows up where you can add a file from your computer. Click the `Select File` button and add a file from you're computer. You can then add a tag to your file, if it falls under one of the pre-generated tags, it will try and autocomplete your request. Select 'Power of Attorney' when it appears. 
+![Screenshot 2023-02-06 224415](https://user-images.githubusercontent.com/89540335/217143466-d48ca625-bfa3-4403-a8e6-9e6f32193112.png)
+
+-Click the `Upload File` button, a prompt saying, `File Successfully submitted` will appear, the popup will close, and you can now see your file in your EstateVault!
+-You can use the icon furthest left to share your document with a member of your connections, which will be covered later. The middle icon is the download icon, press it to download a file to your computer. The third is your delete file button, use it if you need to remove a file from your EstateVault.
+![Screenshot 2023-02-06 224728](https://user-images.githubusercontent.com/89540335/217143489-ff3dbf28-ccf5-4618-99bd-af0a4a7a3f0c.png)
+
 - There's our new file! If we navigate back to the dashboard using the bar on the left side of the screen, we can see that it is in our `Most Recent Documents` section.
 ![image](https://user-images.githubusercontent.com/70381945/206297392-543773fd-f748-4564-97e6-7cef9a693992.png)
-- Now, navigate to the contact page. Here, you can click `Add a Contact + `. Fill in some random information, and hit `Create Contact`. They will not appear on the left side of the screen.
+
+### Connections Page
+- Here is the default Connections page, as you can see, there are no connections, you can add a connection using the invites tab located on the right side of your screen. You can enter a professional's email to send them an invite to become a connection.
+![Connections-page](https://user-images.githubusercontent.com/89540335/217147812-5d68ecc6-7873-4c6a-b77d-288900e76b67.png)
+- A connection must be a user registered in the EstateVault system, so be sure to send the invite the email your connection used to register with EstateVault.
+![invite-client](https://user-images.githubusercontent.com/89540335/217148279-7f6f65a0-f285-4a20-acea-86a9e2270dc0.png)
+- Press the `Send Invite` button, you will now see the pending invite listed in your invites, once your professional accepts, they will appear on your connetions page, where you can then share documents stored in your document vault with them.
+![invite-sent-client](https://user-images.githubusercontent.com/89540335/217148420-d6f7ab5b-3312-48be-b33f-095c7b51f735.png)
+
+
+### Contact Page
+- Now, navigate to the contact page. Here, you can click `Add a Contact + `. Fill in some random information, and hit `Create Contact`. They will appear on the left side of the screen.
 ![image](https://user-images.githubusercontent.com/70381945/206297638-47cebdcd-b3f6-4e05-8cda-92df4f50a8ef.png)
 ![image](https://user-images.githubusercontent.com/70381945/206297664-402185fd-67b1-42c1-87d0-f9406b2b0624.png)
 - If you click on this icon, you can make edits to your contacts.
@@ -34,6 +53,14 @@
 - Here, we can make changes to our own account. If you make any changes to your First Name, Last Name, Email Address, or Phone Number, make sure to hit `Save Changes`. If you make changes to your password, use the `Change Password` button. If you want to delete your account, press on the `Delete Account` button.
 ![image](https://user-images.githubusercontent.com/70381945/206298161-cf9912ba-3a6d-49f6-a1c4-a0becfe8d9ed.png)
 - Don't worry! If you accidentally press it, you'll be prompted to confirm the action.
+
+### Professional Dashboard
+- If you need to create a professional page through EstateVault, repeat the first few steps, but when prompted to sign up, locate the professional sign up button at the bottom of the sign up prompt, and fill in the neccessary information. Once you reach your dashboard you will see it is empty.
+![professional-dashboard](https://user-images.githubusercontent.com/89540335/217145234-9adb281a-711e-45a2-920f-f9b98cfb9efa.png)
+- In order to see your Client's Documents, you can see on the right hand side your invites, if your client has not already sent you an invite, you can send one to them using their email registered on EstateVault. Press send invite to invite your client to your connections.
+![invite](https://user-images.githubusercontent.com/89540335/217145575-68ccaa23-ccbc-43eb-9d81-b4883c2b3250.png)
+- The invite now displays as sent and is now pending until your client accepts. Once your client accepts your invite, you will see them displayed as a connection, and you will gain access to the documents they wish to share with you.
+![invite-sent](https://user-images.githubusercontent.com/89540335/217145854-78ad607f-302a-420b-a454-939acfd07a2c.png)
 
 
 
