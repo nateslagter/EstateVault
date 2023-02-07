@@ -78,11 +78,13 @@ Tech stack is:
     - Run `create database estatevaultdb;`. 
     - Run the command `psql -U postgres estatevaultdb < estateVaultDump.sql`.
 - You can now run the tests. In `AppSettings.json`, the ConnectionString key should have a value of `"ConnectionString": "Host=localhost; Port=5432; Database=estatevaultdb; Username=postgres; Password=Indy!441"`.
+- Ensure the Migrations folder is deleted before running the tests. They will conflict with the local postgres db.
 - To execute the tests, you will first need to build a running solution. Execute 'dotnet build' in the VS terminal to build the program. The .net 6.0 SDK comes with the cli bundled.
 - 'dotnet test' will run all unit tests in the solution. 
 
 ## Replicating via Docker
 - The connection string must be set to `"ConnectionString": "Host=estatevault-db; Database=estatevaultdb; Username=postgres; Password=Indy!441"`.
+- The migrations folder must be in place. See above to restore it.
 - After opening the API in VS, run the following three commands in the developer powershell:
     - `docker compose down`
     - `docker compose build`
