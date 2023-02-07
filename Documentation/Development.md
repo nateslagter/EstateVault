@@ -89,6 +89,9 @@ Tech stack is:
     - `docker compose down`
     - `docker compose build`
     - `docker compose up`
+ - These may not work the first time. If this happens, run :
+     - `psql -U postgres estatevaultdb < estateVaultDump.sql`.
+     - Then, run the above three commands again.
 - After these are done running, you can navigate to `localhost:5001/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
 
 ## Linting
