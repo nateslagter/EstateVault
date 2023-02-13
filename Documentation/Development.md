@@ -94,6 +94,8 @@ Tech stack is:
      - Then, run the above three commands again.
 - After these are done running, you can navigate to `localhost:5001/swagger/index.html` and access the Swagger docs. The frontend is already configured to use the docker ports.
 
-## Linting
-- Lint the program by running `npm run lint` in the bsu.estatevault directory.
-- The linting guidelines can be found in the `.eslintrc.json` file in the frontend folder
+## Linting and Formatting
+- Lint the program by running `npm run lint` in the bsu.estatevault directory.  Adding the `--fix` flag will fix any simple errors or warnings
+- The linting guidelines can be found in the `.eslintrc.json` file in the frontend directory
+- Format the code using Prettier with `npm run format`
+- The formatting guidelines can be found in the `.prettierrc.json` file in the frontend directory
