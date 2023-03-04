@@ -1,0 +1,42 @@
+# Week of 02/25/2023 - 03/04/2023
+
+## Meeting Start Time
+
+2023/02/28/16:00
+
+## Meeting End Time
+
+2023/02/28/17:00
+
+## Location/Medium
+
+RB Collaboration Room
+
+## Present
+
+Peyton Schaefer, Landon Hammond, Nate Slagter, Cameron Allan
+
+## Minute Recorder
+
+Peyton
+
+## Topics Discussed
+
+- Updates on what we have been working on
+- Finalize plans for the comments and notifications tables
+- Plan out and start the notification system
+- Plan a better view for the documents screen that will pair with the notifications change
+- Plan a notifications page
+
+## Things Clarified
+
+- We will all work over spring break so that by Wednesday of the following week we can be done and start rigorously testing and refactoring.
+- We will meet next Friday for Nate to walk us through the creation of effective and safe tests in .Net
+- Otherwise, keep working and providing updates
+
+## Tasks Distributed
+
+- Nate: Finish refactoring and continue working on the notifications system.
+- Landon: Finish writing tests and start planning and implementing the comments system.
+- Cameron: Design the individual document screen and a page to view the notifations. Start their implementations once done.
+- Peyton: Work with Landon to create the comments system.  Create better frontend tests and get the test coverage.
