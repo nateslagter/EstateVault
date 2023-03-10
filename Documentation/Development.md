@@ -39,8 +39,8 @@ Tech stack is:
 - vite.config.ts
 
 ## How to Test Vue
-- run `npm install` to install dependencies, and run `npm run test:unit`
-- at the current moment, there is a weird bug with the `$router.push` method, where vitest thinks it is an unhandled error, but this isn't true, and if you scroll up past the red messages, you can see that each test does pass.
+- run `npm install` to install dependencies, and run `npm run test`
+- run `npm run coverage` to see the code coverage with [c8](https://github.com/bcoe/c8)
 
 ## How to Run the Vue 
 - Navigate to the `/frontend` folder
