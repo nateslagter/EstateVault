@@ -1,0 +1,32 @@
+Week of 03/12/2023 - 03/19/2023
+Meeting Start Time
+
+2023/03/19/21:00
+Meeting End Time
+
+2023/03/19/21:00
+Location/Medium
+
+Online Meeting
+Present
+
+Peyton Schaefer, Landon Hammond, Nate Slagter, Cameron Allan
+Minute Recorder
+
+Nate
+Topics Discussed
+
+    We discussed some last minute changes to the software. We had identified a few bugs while testing it throughout the weekend that needed attention,
+    so we coded together to remove the bugs before making the final release for this iteration.
+
+Things Clarified
+
+    We talked about what exactly we wanted to present to Dan tomorrow, and began gathering resources from our project to present to him tomorrow. We also
+    discussed the test coverage for our project. We are above the necessary threshold, but we want to try and up the number before the iteration is due.
+
+Tasks Distributed
+
+    Nate: finish creating new backend tests and ensure software is fully deployable for release
+    Landon: finish creating new backend tests and ensure that the database has all the necessary parts to be deployed for release
+    Cameron: refine the notification sidebar in the frontend
+    Peyton: test the frontend and ensure that the comment sy stem is able to be used with no hiccups
