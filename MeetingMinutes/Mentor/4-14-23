@@ -1,1 +1,33 @@
+# Mentor Meeting on 04/14/2023
 
+## Meeting Start Time 
+
+2023/04/14/5:15
+
+## Meeting End Time
+
+2023/04/14/5:35
+
+## Location/Medium
+
+Online over zoom
+
+## Present
+
+Cameron Allan
+Landon Hammond
+Michael Keen
+Peyton Schaefer
+Nate Slagter
+
+## Minute Recorder
+
+Cameron Allan
+
+## Topics Discussed
+
+We showcased to michael the backend implementation of the checklist, discussed our progress with implementing Entity Framework, showed progress made towards full mobile integration of the UI, and discussed how we wanted to go about implementing the checklist into the frontend.
+
+## Things Clarified
+
+Michael provided a bit of feedback regarding the implementation of the checklist, and gave feedback on our current implementation of EF. He had little other feedback for us, and thought that our plans for the frontend checklist were good, he mainly thought that we were on the right path with our progress.
