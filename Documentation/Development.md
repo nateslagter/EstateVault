@@ -83,7 +83,8 @@ Tech stack is:
 - 'dotnet test' will run all unit tests in the solution. 
 
 ## Replicating via Docker
-- The connection string must be set to `"ConnectionString": "Host=estatevault-db; Database=estatevaultdb; Username=postgres; Password=Indy!441"`.
+- The connection string must be set to `"ConnectionString": "Host=estatevault-db; Database=estatevaultdb; Username=postgres; Password=password`.
+    - The last two fields will be filled in with your own personal postgres information.
 - The migrations folder must be in place. See above to restore it.
 - You may also need to uncomment out the line `db.Database.Migrate()` in the `program.cs` file to work with Docker.
 - After opening the API in VS, run the following three commands in the developer powershell:
