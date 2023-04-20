@@ -11,11 +11,16 @@
 ![Screenshot 2023-02-06 222757](https://user-images.githubusercontent.com/89540335/217141520-215bfd65-ec8a-46c6-a4c5-7aae92d35b7d.png)
 - If the passwords are not the same, you will be blocked from continuining, and a red `X` will appear. 
 ![image](https://user-images.githubusercontent.com/70381945/206295607-c5dac853-f9c3-4dae-a4dd-328e8ff19f5a.png)
-- After this, you will be prompted to sign in with your new information. Fill in the field with your email address and password, and click `Sign In` to continue.
+- After this, if you are creating a professional account you will be prompted to sign in with your new information. Fill in the field with your email address and password, and click `Sign In` to continue.
 ![Screenshot 2023-02-06 222853](https://user-images.githubusercontent.com/89540335/217141798-cdfc129b-c1ad-4754-b2ad-15081f54f738.png)
+### Checklist
+- If you are making a client account, after signing up you will automatically be signed in and pushed to the checklist, here you will initially be thanked for creating an account with EstateVault. You can press the next button to continue the onboarding steps.
+- ![image]()
+- Next you will be prompted to upload a series of files, these files you will locate from your local device, and upload under the relevant tags when prompted. The onboarding steps go through the series of files and explain why they are important to your Estate. If you do not have these files on hand, worry not, you can continue on to the rest of the site, when you reach the end of the checklist press finish and continue on.
+- ![image]()
 ### Client Dashboard
-- This is your dashboard! It looks empty right now, so let's go ahead and upload some files.
-![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/homeview.png)
+- This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by just uploading them in the checklist, or uploading them through the documents page through the premade folders. Let us now upload our first document.
+![image]()
 ### Document Page
 - This is the document vault page. Here, we can upload documents.
 ![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/document-landing.png)
@@ -53,10 +58,12 @@
 - If you click on this icon, you can make edits to your contacts.
 ![image](https://user-images.githubusercontent.com/70381945/206297717-6a069e9e-ce45-4a64-81a8-f7bc5db0f438.png)
 - Click `Update Contact` when you are finished making changes.
-- Finally, navigate to the Account page.
+
+### Account Page
+- Now, navigate to the Account page.
 ![image](https://user-images.githubusercontent.com/70381945/206297961-fd99dd93-784c-4234-8294-3e5817f96a3b.png)
 - Here, we can make changes to our own account. If you make any changes to your First Name, Last Name, Email Address, or Phone Number, make sure to hit `Save Changes`. If you make changes to your password, use the `Change Password` button. If you want to delete your account, press on the `Delete Account` button.
-![image](https://user-images.githubusercontent.com/70381945/206298161-cf9912ba-3a6d-49f6-a1c4-a0becfe8d9ed.png)
+![image]()
 - Don't worry! If you accidentally press it, you'll be prompted to confirm the action.
 
 ### Professional Dashboard
