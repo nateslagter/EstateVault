@@ -1,9 +1,9 @@
 ## User Manual
 
 ### Landing Page
-![Landing page](https://user-images.githubusercontent.com/70381945/206295189-05931d0e-68da-4a60-b11c-88353e50a58d.png)
+![Landing page](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/welcome-new.png)
 - When first running the app, you will be navigated to this screen. Select `sign up` to register a new account.
-![sign up](https://user-images.githubusercontent.com/70381945/206295356-03bce382-8620-42d3-aa8c-ffbae3315496.png)
+![sign up](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/welcome-new-2.png)
 ### Client Sign up
 - You are now navigated to the client registration page. With the option to choose to sign up for a professional account at the bottom. For this example, stay on the client sign up page. Fill in your personal information, and, when ready, click `Sign Up`.
 ![Screenshot 2023-02-06 222757](https://user-images.githubusercontent.com/89540335/217141520-215bfd65-ec8a-46c6-a4c5-7aae92d35b7d.png)
@@ -15,9 +15,9 @@
 ![Screenshot 2023-02-06 222853](https://user-images.githubusercontent.com/89540335/217141798-cdfc129b-c1ad-4754-b2ad-15081f54f738.png)
 ### Checklist
 - If you are making a client account, after signing up you will automatically be signed in and pushed to the checklist, here you will initially be thanked for creating an account with EstateVault. You can press the `Next` button to continue the onboarding steps.
-- ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-start.png)
+![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-start.png)
 - Next you will be prompted to upload a series of files, these files you will locate from your local device, and upload under the relevant tags when prompted. The onboarding steps go through the series of files and explain why they are important to your Estate. If you do not have these files on hand, worry not, you can continue on to the rest of the site, when you reach the end of the checklist press `Finish` and continue on.
-- ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-end.png)
+![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-end.png)
 ### Client Dashboard
 - This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by just uploading them in the checklist, or uploading them through the documents page through the premade folders. Let us now upload our first document, press `Documents` on your sidebar.
 ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/dashboard-checklist.png)
