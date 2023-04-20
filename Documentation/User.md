@@ -14,18 +14,18 @@
 - After this, if you are creating a professional account you will be prompted to sign in with your new information. Fill in the field with your email address and password, and click `Sign In` to continue.
 ![Screenshot 2023-02-06 222853](https://user-images.githubusercontent.com/89540335/217141798-cdfc129b-c1ad-4754-b2ad-15081f54f738.png)
 ### Checklist
-- If you are making a client account, after signing up you will automatically be signed in and pushed to the checklist, here you will initially be thanked for creating an account with EstateVault. You can press the next button to continue the onboarding steps.
-- ![image]()
-- Next you will be prompted to upload a series of files, these files you will locate from your local device, and upload under the relevant tags when prompted. The onboarding steps go through the series of files and explain why they are important to your Estate. If you do not have these files on hand, worry not, you can continue on to the rest of the site, when you reach the end of the checklist press finish and continue on.
-- ![image]()
+- If you are making a client account, after signing up you will automatically be signed in and pushed to the checklist, here you will initially be thanked for creating an account with EstateVault. You can press the `Next` button to continue the onboarding steps.
+- ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-start.png)
+- Next you will be prompted to upload a series of files, these files you will locate from your local device, and upload under the relevant tags when prompted. The onboarding steps go through the series of files and explain why they are important to your Estate. If you do not have these files on hand, worry not, you can continue on to the rest of the site, when you reach the end of the checklist press `Finish` and continue on.
+- ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-end.png)
 ### Client Dashboard
-- This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by just uploading them in the checklist, or uploading them through the documents page through the premade folders. Let us now upload our first document.
-![image]()
+- This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by just uploading them in the checklist, or uploading them through the documents page through the premade folders. Let us now upload our first document, press `Documents` on your sidebar.
+![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/dashboard-checklist.png)
 ### Document Page
 - This is the document vault page. Here, we can upload documents.
-![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/document-landing.png)
+![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/documents-updated.png)
 - You can click any folder to go in to the folder, and a file to that tag. Or you can press the add button at the top of the page to add a file to any tag, or create a new tag for your file. Let's go ahead and hit the top add button.
-![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/document-landing.png)
+![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/documents-updated.png)
 
 - Here a popup shows up where you can add a file from your computer. Click the `Select File` button and add a file from you're computer. You can then add a tag to your file, if it falls under one of the pre-generated tags, it will try and autocomplete your request. Select 'Power of Attorney' when it appears. 
 ![Screenshot 2023-02-06 224415](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/upload-file.png)
@@ -61,9 +61,9 @@
 
 ### Account Page
 - Now, navigate to the Account page.
-![image](https://user-images.githubusercontent.com/70381945/206297961-fd99dd93-784c-4234-8294-3e5817f96a3b.png)
-- Here, we can make changes to our own account. If you make any changes to your First Name, Last Name, Email Address, or Phone Number, make sure to hit `Save Changes`. If you make changes to your password, use the `Change Password` button. If you want to delete your account, press on the `Delete Account` button.
-![image]()
+![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/account-page-updated.png)
+- Here, we can make changes to our own account. If you make any changes to your First Name, Last Name, Email Address, or Phone Number, make sure to hit `Save Changes` or if you don't want to save them just hit `Reset`. If you make changes to your password, use the `Change Password` button. If you want to delete your account, press on the `Delete Account` button.
+![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/delete-account-updated.png)
 - Don't worry! If you accidentally press it, you'll be prompted to confirm the action.
 
 ### Professional Dashboard
