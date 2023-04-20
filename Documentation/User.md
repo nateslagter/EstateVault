@@ -19,15 +19,15 @@
 - Next you will be prompted to upload a series of files, these files you will locate from your local device, and upload under the relevant tags when prompted. The onboarding steps go through the series of files and explain why they are important to your Estate. If you do not have these files on hand, worry not, you can continue on to the rest of the site, when you reach the end of the checklist press `Finish` and continue on.
 ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/checklist-end.png)
 ### Client Dashboard
-- This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by just uploading them in the checklist, or uploading them through the documents page through the premade folders. Let us now upload our first document, press `Documents` on your sidebar.
+- This is your dashboard! As you can see here from this demo user, the checklist displays here on the right with those initial files still needing to be uploaded, the checklist will automatically display your progress of uploading these files marking them off as you upload them. Which you can do by uploading them through checklist pressing the `Checklist` title, or uploading them through the documents page through the premade folders. Let us now upload our first document, press `Documents` on your sidebar.
 ![image](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/dashboard-checklist.png)
 ### Document Page
 - This is the document vault page. Here, we can upload documents.
 ![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/documents-updated.png)
-- You can click any folder to go in to the folder, and a file to that tag. Or you can press the add button at the top of the page to add a file to any tag, or create a new tag for your file. Let's go ahead and hit the top add button.
+- You can click any folder to go in to the folder, and a file to that tag. Or you can press the add button at the top of the page to add a file to any tag, or create a new tag for your file. Let's go ahead and hit the top `+` button.
 ![Screenshot 2023-02-06 223128](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/documents-updated.png)
 
-- Here a popup shows up where you can add a file from your computer. Click the `Select File` button and add a file from you're computer. You can then add a tag to your file, if it falls under one of the pre-generated tags, it will try and autocomplete your request. Select 'Power of Attorney' when it appears. 
+- Here a popup shows up where you can add a file from your computer. Click the `Select File` button and add a file from you're computer. You can then add a tag to your file, if it falls under one of the pre-generated tags, it will try and autocomplete your request. Select `Power of Attorney` when it appears. 
 ![Screenshot 2023-02-06 224415](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/upload-file.png)
 
 - Click the `Upload File` button, a prompt saying, `File Successfully submitted` will appear, the popup will close, and now travel to the Power of Attorney folder to see your file!
@@ -36,7 +36,7 @@
 - You can preview your newly uploaded file by clicking on the file. Here you can share your document with anybody in your connection list, and remove access from anyone whom the document is shared. If you need to leave something for your connection on a document you shared with them, you can leave a comment for them on the right. You can also rename your file if it needs to be renamed. And finally you can also download that document again by pressing the download button under the file name.
 ![Screenshot 2023-02-06 224728](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/file-preview.png)
 
-- There's our new file! If we navigate back to the dashboard using the bar on the left side of the screen, we can see that it is in our `Most Recent Documents` section.
+- There's our new file! If we navigate back to the dashboard by pressing `Dashboard` on the sidebar on the left, we can see that it is in our `Most Recent Documents` section.
 ![image](https://user-images.githubusercontent.com/70381945/206297392-543773fd-f748-4564-97e6-7cef9a693992.png)
 
 ### Connections Page
@@ -48,7 +48,7 @@
 ![invite-sent-client](https://user-images.githubusercontent.com/89540335/217148420-d6f7ab5b-3312-48be-b33f-095c7b51f735.png)
 
 ### Notifications
-- When on any page, you can see on the side bar your notifications, this is where you will see any updates for your account that you need to be notified for. This could include, a connection being accepted or denied, a comment being left on a document, and more!
+- When on any page, you can see on the side bar your notifications press `Notifications`, this is where you will see any updates for your account that you need to be notified for. This could include, a connection being accepted or denied, a comment being left on a document, account settings being changed, and more!
 ![notifications](https://github.com/nateslagter/EstateVault/blob/main/Auxiliary%20Files/notifications.png)
 
 ### Contact Page
@@ -69,7 +69,7 @@
 ### Professional Dashboard
 - If you need to create a professional page through EstateVault, repeat the first few steps, but when prompted to sign up, locate the professional sign up button at the bottom of the sign up prompt, and fill in the neccessary information. Once you reach your dashboard you will see it is empty.
 ![professional-dashboard](https://user-images.githubusercontent.com/89540335/217145234-9adb281a-711e-45a2-920f-f9b98cfb9efa.png)
-- In order to see your Client's Documents, you can see on the right hand side your invites, if your client has not already sent you an invite, you can send one to them using their email registered on EstateVault. Press send invite to invite your client to your connections.
+- In order to see your Client's Documents, you can see on the right hand side your invites, if your client has not already sent you an invite, you can send one to them using their email registered on EstateVault. Press `Send Invite` to invite your client to your connections.
 ![invite](https://user-images.githubusercontent.com/89540335/217145575-68ccaa23-ccbc-43eb-9d81-b4883c2b3250.png)
 - The invite now displays as sent and is now pending until your client accepts. Once your client accepts your invite, you will see them displayed as a connection, and you will gain access to the documents they wish to share with you.
 ![invite-sent](https://user-images.githubusercontent.com/89540335/217145854-78ad607f-302a-420b-a454-939acfd07a2c.png)
