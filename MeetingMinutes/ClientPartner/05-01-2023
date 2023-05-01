@@ -1,0 +1,37 @@
+# Client Meeting on 04/28/2023
+
+## Meeting Start Time
+
+2023/04/28/14:00
+
+## Meeting End Time
+
+2023/04/28/15:30
+
+## Location/Medium
+
+Accutech HQ
+
+## Present
+
+Peyton Schaefer, Cameron Allan, Landon Hammond, Nate Slagter, Dan Wright, and various Accutech developers and executives
+
+## Minute Recorder
+
+Peyton Schaefer
+
+## Topics Discussed
+
+- Overview of the project and its purpose
+- Answered various questions about the development process such as the things that worked and the things that didn't
+- Reviewed all of our work to those who didn't know about the project
+- Discussed what they needed from us for project transfer
+## Things Clarified
+
+- We will put any documentation in the bit bucket repo
+- We will remove any console logs and fix a minor bug with document upload outisde of a tag
+
+## Client Use of the Project
+
+- Since the meeting was short and there were lots of people present, Cameron just demo'd our project, and besides a small error with refereshing the page on document upload, there was no issues that were obvious.
+- We are unsure if the team will continue the project, but they seemed very excited about the project and proud of the work we had done.
